@@ -1,39 +1,5 @@
-# How to Use 🚀
-
-## Run All Services with Docker
+## How to run these services
 
 ```bash
 docker compose up -d
 ```
-
----
-
-## Frontend
-
-- เปิดที่ [http://localhost/](http://localhost/)
-
----
-
-## Backend
-
-- **Swagger UI:**  
-  [http://localhost/swagger/index.html](http://localhost/swagger/index.html)
-
----
-
-## Keycloak
-
-### Admin Console
-
-- [http://localhost/admin](http://localhost/admin)
-- **Username:** `admin`
-- **Password:** `admin`
-
-### User Console
-
-- **Username:** `SupakornCh@outlook.com`
-- **Password:** `1234`
-
----
->เริ่มต้นครั้ง เเรก ให้ออกจากระบบก่อนกรณีเข้าสู่ระบบค้างอยู่
-> กรุณาตรวจสอบว่า Docker ทำงานอยู่ และพอร์ตไม่ถูกใช้งานซ้ำ 
